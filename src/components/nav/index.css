@@ -1,0 +1,43 @@
+nav {
+    width: 100%;
+    box-shadow:0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    padding: 0px 20px;
+}
+
+nav > a.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    letter-spacing: 5px;
+    display: block;
+    padding: 10px;
+}
+
+nav > a.logo:hover{
+    background-color: #dedede;
+}
+
+nav > ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+nav > ul > li > a {
+    display: block;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+nav > ul > li > a:hover {
+    background-color: #dedede;
+}
