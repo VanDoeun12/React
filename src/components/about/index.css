@@ -1,0 +1,28 @@
+
+
+div.image-with-article-layout > .article > .big-title,
+div.image-with-article-layout > .article > .small-title {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+div.image-with-article-layout > .article > .small-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+div.image-with-article-layout > .article > .p-normal{
+   font-weight: 500; 
+   margin-bottom: 10px;
+}
+div.image-with-article-layout > .article > .p-normal > span{
+    background-color: rgb(232, 232, 235);
+    padding: 6px;
+}
+
+div.image-with-article-layout > .article > .p-gray {
+    color: gray;
+    line-height: 1.8;
+   
+}

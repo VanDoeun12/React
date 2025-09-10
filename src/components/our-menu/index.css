@@ -1,0 +1,7 @@
+div.image-with-article-layout > .article > .list-our-menu{
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;  
+}

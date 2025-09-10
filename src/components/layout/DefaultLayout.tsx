@@ -4,6 +4,7 @@ import "./style.css";
 
 //create use props
 interface DefaultLayoutProps {
+    
     children?: React.ReactNode;
 }
 

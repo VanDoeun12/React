@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+.container > .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container > .content > div {
+    width: 90%;
+}
+.container > .content > div.inside-content {
+    width: 80%;
+   
+}

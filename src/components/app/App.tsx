@@ -2,6 +2,9 @@ import React from 'react';
 import './index.css';
 import DefaultLayout from '../layout/DefaultLayout';
 import Nav from '../nav';
+import Hero from '../hero';
+import About from '../about';
+import OurMenu from '../our-menu/inex';
 
 function App() {
   return (
@@ -11,11 +14,28 @@ function App() {
         <Nav />
         {/* End of Nav */}
 
-        {/* Hero */}
-        {/* End of Hero */}
+       
+        <div className="content">
+           {/* Hero */}
+          <Hero />
+          {/* End of Hero */}
 
-        {/* Menu */}
+         <div className="inside-content">
+          {/* About */}
+          <About />
+          {/* End of About */}
+          
+          <hr />
+
+          {/* Menu */}
+          <OurMenu />
         {/* End of Menu */}
+          </div> 
+        </div>
+
+        
+
+        
 
         {/* Contact */}
         {/* End of Contact */}

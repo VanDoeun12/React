@@ -2,3 +2,25 @@
     width: 100%;
     position: relative;
 }
+
+.image-with-article-layout{
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+
+    padding: 50px 30px;
+   
+}
+
+.image-with-article-layoutdiv > .image  ,
+.image-with-article-layout > .article
+{
+    width: 50%;
+    
+}
+
+.image-with-article-layout > .image > img {
+    width: 85%;
+    border-radius: 10px;
+}
