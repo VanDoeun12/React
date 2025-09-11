@@ -5,6 +5,7 @@ import Nav from '../nav';
 import Hero from '../hero';
 import About from '../about';
 import OurMenu from '../our-menu/inex';
+import Contact from '../contact';
 
 function App() {
   return (
@@ -30,6 +31,12 @@ function App() {
           {/* Menu */}
           <OurMenu />
         {/* End of Menu */}
+
+        <hr />
+
+         {/* Contact */}
+         <Contact />
+        {/* End of Contact */}
           </div> 
         </div>
 
@@ -37,8 +44,7 @@ function App() {
 
         
 
-        {/* Contact */}
-        {/* End of Contact */}
+       
 
         {/* Footer */}
         {/* End of Footer */}
